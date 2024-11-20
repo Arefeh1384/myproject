@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry add <package-name>"
+version = "1.8.4"
+description = ""
+authors = ["arefeh atashgar <arefeatashgar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
